@@ -99,15 +99,20 @@ Ingest a Medicare Appeal for investigation.
 1. Click on **App Launcher** → Search for “OmniScripts”
 
 2. Navigate to the recently installed OmniScript in the list view
-   1. Click on the dropdown at the right of the OmniScript and select **Activate**.
-   2. For more information regarding activating Omniscripts, please see this article: https://help.salesforce.com/s/articleView?id=sf.os_activating_omniscripts.htm&type=5
+   1. Select the first Set Values element in the OmniScript. Click on the "Active" toggle to de-activate it. This step is intended to help troubleshoot/test the Accelerator.
+   2. Click on the dropdown at the right of the OmniScript and select **Activate**.
+   3. For more information regarding activating Omniscripts, please see this article: https://help.salesforce.com/s/articleView?id=sf.os_activating_omniscripts.htm&type=5
+   
+3. Click on **App Launcher** > Integration Procedures
+   1. Open the AHLS_EstablishContextAppeals Integration Procedure
+   2. Click Activate at the bottom of the Procedure Configuration page. 
 
-3. Add the installed OmniScript to the lightning page layout of your choosing. 
+4. Add the installed OmniScript to the lightning page layout of your choosing. 
 
    1. Refer to this article for more information regarding adding OmniScripts to a Lightning Page: https://help.salesforce.com/s/articleView?id=sf.os_add_a_standard_omniscript_component_to_a_lighting_page_20263.htm&type=5
    2. Refer to this article for more information regarding adding OmniScripts to an Experience Cloud Page: https://help.salesforce.com/s/articleView?id=sf.os_add_a_standard_omniscript_component_to_an_experience_page_20341.htm&type=5
 
-4. Make sure all the **DataRaptors and Integration Procedure** are pointing to ***valid data sources***.
+5. Make sure all the **DataRaptors and Integration Procedure** are pointing to ***valid data sources***.
 
 ------
 
